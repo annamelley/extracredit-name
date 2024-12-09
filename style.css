@@ -1,0 +1,26 @@
+/* Link the Mighty-Soul font */
+@font-face {
+    font-family: 'MightySoul'; /* The name you will use for the font in CSS */
+    src: url('fonts/MightySouly.otf') format('opentype'); /* Path to the .otf font file */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'MightySoul', sans-serif; /* Apply Mighty-Soul font */
+}
+
+h1 {
+    font-size: 5em;
+    color: #333;
+    font-family: 'MightySoul', sans-serif; /* Apply Mighty-Soul font */
+    letter-spacing: 5px; /* Adds space between letters */
+    background: linear-gradient(to right, #246059, #BDDEAE); /* Gradient colors */
+    -webkit-background-clip: text;
+    color: transparent; /* Makes the text transparent so the background is visible */
+    -webkit-text-stroke: 0.5px #333; /* Adds a thicker outline */
+}
